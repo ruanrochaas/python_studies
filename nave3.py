@@ -109,7 +109,7 @@ while True:
     if not lista[0].vivo and not lista[1].vivo:
         print("\nVOCÊ GANHOU, IEEEEIIII!!")
         break
-    escolha = input("dea: ")
+    escolha = input("d, e or a: ")
     if escolha == "d":
         nave.mover(1)
     elif escolha == "e":
