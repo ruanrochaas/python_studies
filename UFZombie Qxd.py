@@ -155,7 +155,7 @@ def lacoJogo():
 
 lacoJogo()
 
-mensagem("Você foi comido!", vermelho)
+mensagem("Você foi comido!!", vermelho)
 pygame.display.update()
 time.sleep(2)
 pygame.quit()
